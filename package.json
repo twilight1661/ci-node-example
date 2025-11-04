@@ -1,0 +1,23 @@
+{
+  "name": "ci-node-example",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI demo with GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "echo \"No build step defined; add bundler/build commands here\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
